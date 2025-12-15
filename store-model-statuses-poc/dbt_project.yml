@@ -1,0 +1,11 @@
+name: duckdb_example
+version: "1.0"
+config-version: 2
+
+profile: duckdb_example
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+
+on-run-end:
+  - "{{ log_results(results) }}"
