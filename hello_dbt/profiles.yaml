@@ -1,0 +1,11 @@
+hello_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      dbname: appdb
+      port: 5432
+      schema: public

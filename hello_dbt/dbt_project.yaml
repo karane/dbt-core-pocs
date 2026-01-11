@@ -1,0 +1,7 @@
+name: 'hello_dbt'
+version: '1.0.0'
+profile: 'hello_dbt'
+
+models:
+  hello_dbt:
+    +materialized: view
